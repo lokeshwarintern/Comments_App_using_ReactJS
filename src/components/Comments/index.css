@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  /* background-color: #dee0e3; */
+  padding: 40px;
+  width: 400px;
+}
+
+.comments-heading {
+  color: #1e293b;
+  font-family: Roboto;
+}
+
+.comments-image {
+  height: 150px;
+}
+
+.para-ele {
+  font-family: Roboto;
+  color: #475569;
+}
+
+.form-ele {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-input-ele {
+  border-width: 1px;
+  border-color: #475569;
+  padding: 8px;
+  border-radius: 4px;
+  width: 275px;
+  margin: 8px;
+  margin-left: 0px;
+}
+
+.add-comment-btn {
+  background-color: #0284c7;
+  width: 150px;
+  padding: 8px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: Roboto;
+  border-width: 0px;
+}
+
+.span-comments-count {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-family: Roboto;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.ul-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .bg-container {
+    width: 70%;
+    padding-left: 60px;
+  }
+  .app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .comments-image {
+    height: 300px;
+    order: 1;
+  }
+}
